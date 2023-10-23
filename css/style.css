@@ -1,4 +1,4 @@
-body {
+* {
     font-family: Inter;
     letter-spacing: -0.02em;
 }
@@ -49,6 +49,20 @@ h2 {
     align-self: stretch;
 }
 
+.sub-frame-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.body-content {
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+}
+
 .content {
     display: flex;
     padding: 24px;
@@ -60,7 +74,7 @@ h2 {
     background: #FFF;
 }
 
-.content-items {
+.content-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,20 +83,20 @@ h2 {
     align-self: stretch;
 }
 
-.content-item {
+.content-list__item {
     display: flex;
     align-items: center;
     gap: 8px;
     align-self: stretch;
 }
 
-.content-item-image {
-    width: 32px;
-    height: 32px;
+.content-list__item-image {
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
 }
 
-.content-item-description {
+.content-list__item-description {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -105,7 +119,6 @@ button.mobile-link {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    margin-top: 12px;
 }
 
 button.mobile-link:hover {
@@ -125,19 +138,13 @@ button.mobile-link:hover {
 
 .download-links {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 8px;
-    align-self: stretch;
+    gap: 8px 16px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 img.download-app {
     width: 135px;
     height: 38px;
-}
-
-.download-links-first-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
 }
