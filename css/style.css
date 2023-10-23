@@ -1,0 +1,150 @@
+* {
+    font-family: Inter;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+}
+
+h2 {
+    align-self: stretch;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.logo-image {
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main-frame {
+    background-color: #F1F9FD;
+    display: flex;
+    width: 375px;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.sub-frame {
+    display: flex;
+    height: 589px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.sub-frame-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.body-content {
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.content-list__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.content-list__item-image {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.content-list__item-description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+button.mobile-link {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #514FAE;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+button.mobile-link:hover {
+    background: #413F8B;
+}
+
+.learn-more {
+    align-self: stretch;
+    color: #514FAE;
+    text-align: center;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.download-links {
+    display: flex;
+    align-items: center;
+    gap: 8px 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.download-app {
+    width: 135px;
+    height: 38px;
+}
